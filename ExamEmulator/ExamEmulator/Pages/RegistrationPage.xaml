@@ -10,14 +10,14 @@
             x:Name="EnterBtn"
             BackgroundColor="#F5F5F5"
             TextColor="Black"
-            AbsoluteLayout.LayoutBounds="73, 63, 100, 50"
+            AbsoluteLayout.LayoutBounds="169, 47, 100, 50"
            />
         <Button
             Text="Регистрация"
             x:Name="RegistrationBtn"
             BackgroundColor="#F5F5F5"
             TextColor="Black"
-            AbsoluteLayout.LayoutBounds="136, 63, 100, 50"
+            AbsoluteLayout.LayoutBounds="207, 47, 100, 50"
            />
         <Label
             Text="Мы скучали"

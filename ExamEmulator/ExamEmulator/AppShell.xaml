@@ -29,6 +29,11 @@
 
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
+
+        <Tab Title="Экзамен">
+            <ShellContent ContentTemplate="{DataTemplate pages:ExamPage}" />
+        </Tab>
+        
     </TabBar>
 
 </Shell>

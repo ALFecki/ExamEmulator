@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#A0BE93"
+             x:Class="ExamEmulator.Pages.ExamPage">
+
+    <AbsoluteLayout>
+        <Label 
+                Text="Имя пользователя"
+                AbsoluteLayout.LayoutBounds="131, 68, 200, 20"/>
+        <Label 
+            Text="Эмэйл пользователя"
+            AbsoluteLayout.LayoutBounds="131, 90, 200, 20"/>
+        <Image
+            Source="grey_gosse.png"
+            AbsoluteLayout.LayoutBounds="55,65,50,50"/>
+        <Button
+            Text="⇦ Вернуться к списку предметов"
+            AbsoluteLayout.LayoutBounds="50, 130"
+            BorderColor="#A0BE93"
+            BackgroundColor="#A0BE93"
+            MinimumWidthRequest="100"
+            MinimumHeightRequest="20"
+            TextColor="Black"/>
+        <Label
+            Text="ПСА"
+            FontSize="30"
+            AbsoluteLayout.LayoutBounds="50, 170"
+            />
+        <Button
+            Text="Список вопросов к экзамену"
+            AbsoluteLayout.LayoutBounds="150, 185"
+            BorderColor="#A0BE93"
+            BackgroundColor="#A0BE93"
+            MinimumWidthRequest="100"
+            MinimumHeightRequest="20"
+            TextColor="Black"/>
+        <Button
+            Text="Начать тестирование"
+            AbsoluteLayout.LayoutBounds="390, 185"
+            BorderColor="#A0BE93"
+            BackgroundColor="#A0BE93"
+            MinimumWidthRequest="100"
+            MinimumHeightRequest="20"
+            TextColor="Black"/>
+
+
+
+    </AbsoluteLayout>
+</ContentPage>
