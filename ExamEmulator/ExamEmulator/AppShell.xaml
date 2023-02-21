@@ -33,7 +33,11 @@
         <Tab Title="Экзамен">
             <ShellContent ContentTemplate="{DataTemplate pages:ExamPage}" />
         </Tab>
-        
+
+        <Tab Title="Общий вопрос">
+            <ShellContent ContentTemplate="{DataTemplate pages:GeneralQuestionPage}" />
+        </Tab>
+
     </TabBar>
 
 </Shell>

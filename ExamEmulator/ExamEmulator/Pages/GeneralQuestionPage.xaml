@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamEmulator.Pages.GeneralQuestionPage"
+             BackgroundColor="#A0BE93">
+
+    <AbsoluteLayout>
+        <Button
+            Text="⇦ Вернуться к списку предметов"
+            AbsoluteLayout.LayoutBounds="100, 84"
+            BorderColor="#A0BE93"
+            BackgroundColor="#A0BE93"
+            MinimumWidthRequest="100"
+            MinimumHeightRequest="20"
+            TextColor="#E8E4DB"/>
+        <Label
+            AbsoluteLayout.LayoutBounds="72, 160" 
+            Text="Добавить вопрос по ПСА"
+            FontSize="40"/>
+        <HorizontalStackLayout AbsoluteLayout.LayoutBounds="72,271" >
+
+            <VerticalStackLayout AbsoluteLayout.LayoutBounds="72,271"  >
+                <Label
+                    Text="Формулировка вопроса"
+                    Margin="5"/>
+                <Entry
+                    MinimumHeightRequest="40"
+                    WidthRequest="220"
+                    BackgroundColor="#E8E4DB"
+                    Placeholder="Введите вопрос"
+                    Margin="5"
+                    />
+                <Label
+                    Text="Тема вопроса"
+                    Margin="5"/>
+                <Entry
+                    MinimumHeightRequest="40"
+                    WidthRequest="220"
+                    BackgroundColor="#E8E4DB"
+                    Placeholder="Введите тему"
+                    Margin="5"
+                    />
+                <Label
+                    Text="Варианты вопроса"
+                    Margin="5"/>
+                <RadioButton GroupName="questions" Content="открытый" IsChecked="True"  />
+                <RadioButton GroupName="questions" Content="тестовый"  />
+                <RadioButton GroupName="questions" Content="задача"  />
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout  Margin="200,0,0,0">
+                <Label
+                    Text="Формулировка вопроса"
+                    Margin="5"/>
+                <Entry
+                    BackgroundColor="#E8E4DB"
+                    MinimumHeightRequest="200"
+                    WidthRequest="520"/>
+                <Button
+                    Text="Добавить вопрос"
+                    TextColor="Black"
+                    Margin="0,15,0,0"
+                    BackgroundColor="#DE8321"
+                    BorderColor="#A0BE93"
+                    MinimumHeightRequest="30"
+                    WidthRequest="150"/>
+                
+            </VerticalStackLayout>
+            
+        </HorizontalStackLayout>
+    </AbsoluteLayout>
+    
+</ContentPage>
