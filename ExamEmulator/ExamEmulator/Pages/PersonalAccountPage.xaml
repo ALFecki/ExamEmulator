@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#A0BE93"
+             x:Class="ExamEmulator.Pages.PersonalAccountPage">
+            
+    <AbsoluteLayout>
+        <Label 
+            Text="Имя пользователя"
+            AbsoluteLayout.LayoutBounds="131, 68, 200, 20"/>
+        <Label 
+            Text="Эмэйл пользователя"
+            AbsoluteLayout.LayoutBounds="131, 90, 200, 20"/>
+        <Button
+            Text="Мои экзамены"
+            x:Name="ExaminationBtn"
+            BackgroundColor="#A0BE93"
+            MinimumWidthRequest="100"
+            TextColor="Black"
+            AbsoluteLayout.LayoutBounds="20, 150, 100, 50"/>
+        <Button
+            Text="Статистика"
+            x:Name="StatisticBtn"
+            BackgroundColor="#A0BE93"
+            TextColor="Black"
+            MinimumWidthRequest="100"
+            AbsoluteLayout.LayoutBounds="120, 150, 100, 50"/>
+        <Button
+            Text="Настройки"
+            x:Name="SettingsBtn"
+            BackgroundColor="#A0BE93"
+            TextColor="Black"
+            MinimumWidthRequest="100"
+            AbsoluteLayout.LayoutBounds="220, 150, 100, 50"/>
+        <Button
+            Text="Экзамен ПСА"
+            BackgroundColor="#E8E4DB"
+            TextColor="Black"
+            CornerRadius="20"
+            MinimumWidthRequest="150"
+            MinimumHeightRequest="150"
+            AbsoluteLayout.LayoutBounds="20, 220"/>
+        <Button
+            Text="Экзамен ПСА"
+            BackgroundColor="#E8E4DB"
+            TextColor="Black"
+            CornerRadius="20"
+            MinimumWidthRequest="150"
+            MinimumHeightRequest="150"
+            AbsoluteLayout.LayoutBounds="200, 220"/>
+
+
+    </AbsoluteLayout>
+</ContentPage>

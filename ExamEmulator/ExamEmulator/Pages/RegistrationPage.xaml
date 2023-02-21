@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#F5F5F5"
+             x:Class="ExamEmulator.Pages.RegistrationPage">
+
+    <AbsoluteLayout>
+        <Button
+            Text="Вход"
+            x:Name="EnterBtn"
+            BackgroundColor="#F5F5F5"
+            TextColor="Black"
+            AbsoluteLayout.LayoutBounds="73, 63, 100, 50"
+           />
+        <Button
+            Text="Регистрация"
+            x:Name="RegistrationBtn"
+            BackgroundColor="#F5F5F5"
+            TextColor="Black"
+            AbsoluteLayout.LayoutBounds="136, 63, 100, 50"
+           />
+        <Label
+            Text="Мы скучали"
+            AbsoluteLayout.LayoutBounds="73, 163, 292, 22"/>
+        <Label
+            Text="Войдите, чтобы продолжить"
+            AbsoluteLayout.LayoutBounds="73, 185, 292, 22"/>
+        <Button
+            Text="E-mail или телефон"
+            x:Name="EmailBtn"
+            BackgroundColor="#A0BE93"
+            TextColor="Black"
+            AbsoluteLayout.LayoutBounds="73, 227, 200, 50"
+           />
+        <Button
+            Text="Пароль"
+            x:Name="PasswordBtn"
+            BackgroundColor="#A0BE93"
+            TextColor="Black"
+            AbsoluteLayout.LayoutBounds="73, 280, 200, 50"/>
+        <RadioButton
+            Content="Запомнить меня"
+            BackgroundColor="#F5F5F5"
+            TextColor="Black"
+            FontSize="10"
+            AbsoluteLayout.LayoutBounds="73, 335, 200, 20"/>
+        <Button
+            Text="Забыли пароль ?"
+            BackgroundColor="#F5F5F5"
+            TextColor="Black"
+            FontSize="10"
+            MinimumHeightRequest="30"
+            AbsoluteLayout.LayoutBounds="273, 335, 200, 20"/>
+        <Button
+            Text="Войти в аккааунт"
+            BackgroundColor="#DE8321"
+            TextColor="Black"
+            FontSize="10"
+            MinimumHeightRequest="30"
+            AbsoluteLayout.LayoutBounds="73, 365, 200, 30"/>
+
+
+
+
+    </AbsoluteLayout>
+    
+</ContentPage>
