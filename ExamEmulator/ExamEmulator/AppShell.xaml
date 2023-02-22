@@ -41,6 +41,14 @@
         <Tab Title="Вопрос с вариантами ответа">
             <ShellContent ContentTemplate="{DataTemplate pages:AnswerQuestionPage}" />
         </Tab>
+        
+        <Tab Title="Общий билет">
+            <ShellContent ContentTemplate="{DataTemplate pages:GenetralTicketPage}" />
+        </Tab>
+
+        <Tab Title="Билет с ответами">
+            <ShellContent ContentTemplate="{DataTemplate pages:AnswerTicketPage}" />
+        </Tab>
 
 
     </TabBar>

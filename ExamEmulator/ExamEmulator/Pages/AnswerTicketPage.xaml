@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamEmulator.Pages.AnswerTicketPage"
+     BackgroundColor ="#A0BE93">
+
+    <VerticalStackLayout HorizontalOptions="Center" Padding="30" >
+        <StackLayout BackgroundColor="#E8E4DB">
+            <Label 
+                Text="Билет # а как показать динамически номрер?"
+                MinimumWidthRequest="700"
+                MinimumHeightRequest="30"
+                FontSize="18"
+                />
+            <Label 
+                Text="Вопрос # а как показать динамически номрер?"
+                MinimumWidthRequest="700"
+                MinimumHeightRequest="20"
+                FontSize="12"
+                />
+        </StackLayout>
+
+        <VerticalStackLayout BackgroundColor="#E8E4DB" Margin="0,30,0,0">
+            <Label Margin="10,30,0,0"
+               Text="здесь вопрос" 
+               MinimumWidthRequest="700"
+               MinimumHeightRequest="30"
+               BackgroundColor="#E8E4DB"/>
+            <RadioButton GroupName="answers" Content="текст ответа" Margin="10,10,0,-1" />
+            <RadioButton GroupName="answers" Content="текст ответа" Margin="10,0,0,0"/>
+            <RadioButton GroupName="answers" Content="текст ответа" Margin="10,0,0,0" />
+            <RadioButton GroupName="answers" Content="текст ответа" Margin="10,0,0,0"/>
+
+            <Label
+                Margin="10,10,0,30"
+                TextColor="#DE8321"
+                Text="Здесь правильность ответа"
+                FontSize="20"/>
+        </VerticalStackLayout>
+        
+        <Button
+            Margin="0,10,0,0"
+            FontSize="14"
+            Text="Ответить"
+            HorizontalOptions="Start"
+            TextColor="Black"
+            WidthRequest="90"
+            MinimumHeightRequest="30"
+            BorderColor="#DE8321"
+            BorderWidth="2"
+            BackgroundColor="#E8E4DB"/>
+
+        <HorizontalStackLayout Margin="0,10,0,0" HorizontalOptions="Center">
+            <Button
+                Margin="0,0,20,0"
+                FontSize="14"
+                Text="Предыдущий вопрос"
+                TextColor="Black"
+                WidthRequest="120"
+                MinimumHeightRequest="30"
+                BorderColor="#DE8321"
+                BackgroundColor="#DE8321"/>
+            <Button
+                Margin="0,0,20,0"
+                FontSize="14"
+                Text="Отметить Вопрос"
+                TextColor="Black"
+                WidthRequest="170"
+                MinimumHeightRequest="30"
+                BorderColor="#DE8321"
+                BackgroundColor="#DE8321"/>
+            <Button
+                Margin="0,0,20,0"
+                FontSize="14"
+                Text="Следующий вопрос"
+                TextColor="Black"
+                WidthRequest="120"
+                MinimumHeightRequest="30"
+                BorderColor="#DE8321"
+                BackgroundColor="#DE8321"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
