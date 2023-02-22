@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamEmulator.Pages.SignInPage"
+             BackgroundColor="#E8E4DB">
+    <AbsoluteLayout>
+        
+        <Button
+            Text="Регистрация"
+            x:Name="RegistrationBtn"
+            BackgroundColor="#E8E4DB"
+            BorderColor="#E8E4DB"
+            TextColor="Black"
+            AbsoluteLayout.LayoutBounds="722, 81, 90, 50"
+           />
+        <Label
+            Text="Мы скучали!"
+            FontSize="25"
+            AbsoluteLayout.LayoutBounds="630, 153, 292, 30"/>
+        <Label
+            Text="Зарегистрируйтесь, чтобы продолжить"
+            AbsoluteLayout.LayoutBounds="570, 195, 292, 22"/>
+        <Entry
+            Placeholder="E-mail"
+            PlaceholderColor="Black"
+            BackgroundColor="#A0BE93"
+            MinimumHeightRequest="30"
+            TextColor="Black"
+            AbsoluteLayout.LayoutBounds="580, 227, 250,30"
+           />
+        <Entry
+            Placeholder="Соси"
+          
+            BackgroundColor="#A0BE93"
+            MinimumHeightRequest="30"
+            PlaceholderColor="Black"
+            TextColor="Black"
+            AbsoluteLayout.LayoutBounds="580, 260, 250, 30"/>
+
+
+        <CheckBox x:Name="statusCheckBox" AbsoluteLayout.LayoutBounds="570,290"  />
+        <Label FontSize="14"  Text="Запомнить меня" AbsoluteLayout.LayoutBounds="605,301"/>
+
+        <Button
+            Text="Забыли пароль?"
+            BackgroundColor="#E8E4DB"
+            BorderColor="#E8E4DB"
+            TextColor="Black"
+            FontSize="14"
+            MinimumHeightRequest="30"
+            AbsoluteLayout.LayoutBounds="750, 295, 150, 30" />
+
+        <Button
+            Text="Войти в аккааунт"
+            BackgroundColor="#DE8321"
+            TextColor="Black"
+            FontSize="10"
+            MinimumHeightRequest="30"
+            AbsoluteLayout.LayoutBounds="650, 365, 200, 30"/>
+
+
+
+
+    </AbsoluteLayout>
+</ContentPage>

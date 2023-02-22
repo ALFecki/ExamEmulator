@@ -12,7 +12,11 @@
         <Tab Title="Регистрация">
             <ShellContent ContentTemplate="{DataTemplate pages:RegistrationPage}" />
         </Tab>
-        
+
+        <Tab Title="Вход">
+            <ShellContent ContentTemplate="{DataTemplate pages:SignInPage}" />
+        </Tab>
+
         <Tab Title="Контакты">
 			<ShellContent ContentTemplate="{DataTemplate pages:ContactsPage}" />
 		</Tab>

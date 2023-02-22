@@ -4,51 +4,38 @@
              BackgroundColor="#E8E4DB"
              x:Class="ExamEmulator.Pages.RegistrationPage">
 
-    <AbsoluteLayout>
-        <Button
-            Text="Вход"
-            x:Name="EnterBtn"
-            BackgroundColor="#E8E4DB"
-            BorderColor="#E8E4DB"
-            TextColor="Black"
-            AbsoluteLayout.LayoutBounds="590, 81, 50, 50"
-           />
-        <Button
-            Text="Регистрация"
-            x:Name="RegistrationBtn"
-            BackgroundColor="#E8E4DB"
-            BorderColor="#E8E4DB"
-            TextColor="Black"
-            AbsoluteLayout.LayoutBounds="722, 81, 90, 50"
-           />
+    <VerticalStackLayout HorizontalOptions="Center">
+
         <Label
             Text="Мы скучали!"
-            FontSize="25"
-            AbsoluteLayout.LayoutBounds="630, 153, 292, 30"/>
+            FontSize="25"/>
         <Label
-            Text="Зарегистрируйтесь, чтобы продолжить"
-            AbsoluteLayout.LayoutBounds="570, 195, 292, 22"/>
+            Text="Зарегистрируйтесь, чтобы продолжить"/>
         <Entry
             Placeholder="E-mail"
             PlaceholderColor="Black"
-            x:Name="EmailBtn"
             BackgroundColor="#A0BE93"
             MinimumHeightRequest="30"
-            TextColor="Black"
-            AbsoluteLayout.LayoutBounds="580, 227, 250,30"
-           />
+            TextColor="Black"/>
         <Entry
-            Placeholder="Соси"
-            x:Name="PasswordBtn"
+            Placeholder="Пароль"
             BackgroundColor="#A0BE93"
             MinimumHeightRequest="30"
             PlaceholderColor="Black"
-            TextColor="Black"
-            AbsoluteLayout.LayoutBounds="580, 260, 250, 30"/>
+            TextColor="Black"/>
 
-
-        <CheckBox x:Name="statusCheckBox" AbsoluteLayout.LayoutBounds="570,290"  />
-        <Label FontSize="14"  Text="Запомнить меня" AbsoluteLayout.LayoutBounds="605,301"/>
+        <Entry
+            Placeholder="Повторите пароль"
+            BackgroundColor="#A0BE93"
+            MinimumHeightRequest="30"
+            PlaceholderColor="Black"
+            TextColor="Black"/>
+        
+        <HorizontalStackLayout>
+            <CheckBox x:Name="statusCheckBox"  />
+            <Label FontSize="14"  Text="Запомнить меня"/>
+        </HorizontalStackLayout>
+       
 
         <Button
             Text="Забыли пароль?"
@@ -56,20 +43,22 @@
             BorderColor="#E8E4DB"
             TextColor="Black"
             FontSize="14"
-            MinimumHeightRequest="30"
-            AbsoluteLayout.LayoutBounds="750, 295, 150, 30" />
-        
+            MinimumHeightRequest="30" />
+
         <Button
             Text="Войти в аккааунт"
             BackgroundColor="#DE8321"
             TextColor="Black"
             FontSize="10"
-            MinimumHeightRequest="30"
-            AbsoluteLayout.LayoutBounds="650, 365, 200, 30"/>
+            MinimumHeightRequest="30"/>
 
-
-
-
-    </AbsoluteLayout>
+        <Button
+            Text="Вход"
+            x:Name="EnterBtn"
+            BackgroundColor="#E8E4DB"
+            BorderColor="#E8E4DB"
+            TextColor="Black"/>
+        
+    </VerticalStackLayout>
     
 </ContentPage>
