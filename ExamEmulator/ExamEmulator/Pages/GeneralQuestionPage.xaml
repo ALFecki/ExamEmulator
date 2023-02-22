@@ -51,7 +51,7 @@
 
             <VerticalStackLayout  Margin="200,0,0,0">
                 <Label
-                    Text="Формулировка вопроса"
+                    Text="Ответ на вопрос"
                     Margin="5"/>
                 <Entry
                     BackgroundColor="#E8E4DB"

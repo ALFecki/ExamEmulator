@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamEmulator.Pages.AddExamPage"
+             BackgroundColor="#A0BE93">
+   
+    
+    <VerticalStackLayout>
+        <AbsoluteLayout>
+            <Button
+                Text="⇦ Вернуться к списку предметов"
+                AbsoluteLayout.LayoutBounds="100, 84"
+                BorderColor="#A0BE93"
+                BackgroundColor="#A0BE93"
+                MinimumWidthRequest="100"
+                MinimumHeightRequest="20"
+                TextColor="#E8E4DB"/>
+            <Label
+                AbsoluteLayout.LayoutBounds="72, 120" 
+                Text="Добавить Экзамен"
+                FontSize="40"/>
+        </AbsoluteLayout>
+
+        <HorizontalStackLayout>
+            <VerticalStackLayout Margin="70,0,0,0">
+                <Label
+                    Margin="0,30,0,0"
+                    Text="Название предмета"/>
+                <Entry
+                    Margin="0,5,0,0"
+                    Placeholder="Название предмета"
+                    BackgroundColor="#E8E4DB"
+                    MinimumHeightRequest="30"/>
+                <Label
+                    Margin="0,15,0,0"
+                    Text="Выберите дату экзамена"/>
+                <DatePicker Format="d"  Margin="0,15,0,0" BackgroundColor="#E8E4DB">
+                    <DatePicker.MinimumDate>7/10/2021</DatePicker.MinimumDate>
+                    <DatePicker.MaximumDate>7/20/2023</DatePicker.MaximumDate>
+                </DatePicker>
+
+                <Button
+                    HorizontalOptions="Center"
+                    Margin="0,30,0,0"
+                    Text="Прикрепить файл"
+                    BorderColor="#DE8321"
+                    BackgroundColor="#DE8321"
+                    TextColor="Black"
+                    FontSize="12"
+                    WidthRequest="140"
+                    MinimumHeightRequest="30"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Margin="300,0,0,0">
+                <Label
+                    Margin="0,30,0,0"
+                    Text="Выбор обложки"/>
+                <Button
+                    HorizontalOptions="Center"
+                    Margin="0,30,0,0"
+                    Text="Добавить предмет"
+                    BorderColor="#DE8321"
+                    BackgroundColor="#DE8321"
+                    TextColor="Black"
+                    FontSize="12"
+                    WidthRequest="140"
+                    MinimumHeightRequest="30"/>
+                <Button
+                    HorizontalOptions="Center"
+                    Margin="0,30,0,0"
+                    Text="Добавить вопросы"
+                    BorderColor="#DE8321"
+                    BackgroundColor="#DE8321"
+                    TextColor="Black"
+                    FontSize="12"
+                    WidthRequest="140"
+                    MinimumHeightRequest="30"/>
+                
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+
+        
+        
+
+    </VerticalStackLayout>
+    
+</ContentPage>
