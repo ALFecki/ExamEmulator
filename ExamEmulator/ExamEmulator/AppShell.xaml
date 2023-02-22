@@ -38,6 +38,11 @@
             <ShellContent ContentTemplate="{DataTemplate pages:GeneralQuestionPage}" />
         </Tab>
 
+        <Tab Title="Вопрос с вариантами ответа">
+            <ShellContent ContentTemplate="{DataTemplate pages:AnswerQuestionPage}" />
+        </Tab>
+
+
     </TabBar>
 
 </Shell>
