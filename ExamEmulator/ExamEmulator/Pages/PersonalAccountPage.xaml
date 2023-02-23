@@ -11,12 +11,22 @@
         <HorizontalStackLayout>
             <Image
                 Source="orange_gosse.png"/>
+            <VerticalStackLayout>
+                <Label 
+                    Margin="15,65,0,0"
+                    Text="Эмэйл пользователя"/>
+                <Button
+                     Text="Выйти из аккаунта"
+                     BackgroundColor="#E8E4DB"
+                     WidthRequest="150"
+                     Margin="10,0,0,0"
+                     MinimumHeightRequest="25"/>
+            </VerticalStackLayout>
             
-            <Label 
-                Margin="15,65,0,0"
-                Text="Эмэйл пользователя"/>
+            
 
         </HorizontalStackLayout>
+        
 
         <HorizontalStackLayout>
             <Button

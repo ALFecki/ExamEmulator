@@ -8,12 +8,14 @@
     Shell.FlyoutBehavior="Disabled">
 
     <TabBar>
-        <Tab Title="Добавить экзамен">
-            <ShellContent ContentTemplate="{DataTemplate pages:AddExamPage}" />
-        </Tab>
+        
 
         <Tab Title="Регистрация">
             <ShellContent ContentTemplate="{DataTemplate pages:RegistrationPage}" />
+        </Tab>
+
+        <Tab Title="Добавить экзамен">
+            <ShellContent ContentTemplate="{DataTemplate pages:AddExamPage}" />
         </Tab>
 
         <Tab Title="Вход">

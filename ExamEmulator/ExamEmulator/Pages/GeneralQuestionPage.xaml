@@ -17,6 +17,12 @@
             AbsoluteLayout.LayoutBounds="72, 160" 
             Text="Добавить вопрос по ПСА"
             FontSize="40"/>
+        <Image
+            AbsoluteLayout.LayoutBounds="1200,-10"
+            Rotation="180"
+            HeightRequest="400"
+            Source="gosse_head.png"/>
+
         <HorizontalStackLayout AbsoluteLayout.LayoutBounds="72,271" >
 
             <VerticalStackLayout AbsoluteLayout.LayoutBounds="72,271"  >
@@ -46,6 +52,11 @@
                 <RadioButton GroupName="questions" Content="открытый" IsChecked="True"  />
                 <RadioButton GroupName="questions" Content="тестовый"  />
                 <RadioButton GroupName="questions" Content="задача"  />
+
+                <Image
+                    Source="gosse_head.png"
+                    
+                    />
 
             </VerticalStackLayout>
 
