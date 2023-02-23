@@ -56,7 +56,7 @@
                 FontSize="14"
                 Text="Предыдущий вопрос"
                 TextColor="Black"
-                WidthRequest="120"
+                WidthRequest="140"
                 MinimumHeightRequest="30"
                 BorderColor="#DE8321"
                 BackgroundColor="#DE8321"/>
@@ -74,7 +74,7 @@
                 FontSize="14"
                 Text="Следующий вопрос"
                 TextColor="Black"
-                WidthRequest="120"
+                WidthRequest="140"
                 MinimumHeightRequest="30"
                 BorderColor="#DE8321"
                 BackgroundColor="#DE8321"/>
